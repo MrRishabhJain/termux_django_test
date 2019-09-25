@@ -870,3 +870,492 @@ Django version 2.2.5, using settings 'django_test.settings'
 Starting development server at http://0.0.0.0:8000/
 Quit the server with CONTROL-C.
 Watching for file changes with StatReloader
+[24/Sep/2019 22:56:21] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 22:56:21] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[24/Sep/2019 22:56:21] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[24/Sep/2019 22:56:21] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[24/Sep/2019 22:56:21] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+[24/Sep/2019 22:57:40] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 22:57:40] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[24/Sep/2019 22:57:40] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[24/Sep/2019 22:57:40] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[24/Sep/2019 22:57:40] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+Not Found: /favicon.ico
+[24/Sep/2019 22:57:41] "GET /favicon.ico HTTP/1.1" 404 1981
+Invalid HTTP_HOST header: '10.246.60.178'. You may need to add '10.246.60.178' to ALLOWED_HOSTS.
+Bad Request: /
+[24/Sep/2019 23:09:44] "GET / HTTP/1.1" 400 58086
+Invalid HTTP_HOST header: '10.246.60.178'. You may need to add '10.246.60.178' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[24/Sep/2019 23:09:45] "GET /favicon.ico HTTP/1.1" 400 58130
+Invalid HTTP_HOST header: '10.246.60.178'. You may need to add '10.246.60.178' to ALLOWED_HOSTS.
+Bad Request: /
+[24/Sep/2019 23:10:07] "GET / HTTP/1.1" 400 58221
+Invalid HTTP_HOST header: '10.246.60.178'. You may need to add '10.246.60.178' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[24/Sep/2019 23:10:08] "GET /favicon.ico HTTP/1.1" 400 58391
+/data/data/com.termux/files/home/django_test/django_test/django_test/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 24, 2019 - 22:57:35
+Django version 2.2.5, using settings 'django_test.settings'
+Starting development server at http://0.0.0.0:1996/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[24/Sep/2019 23:12:05] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 23:12:05] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[24/Sep/2019 23:12:05] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[24/Sep/2019 23:12:05] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[24/Sep/2019 23:12:05] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+Not Found: /favicon.ico
+[24/Sep/2019 23:12:05] "GET /favicon.ico HTTP/1.1" 404 1976
+[24/Sep/2019 23:15:10] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 23:19:01] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 23:19:01] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[24/Sep/2019 23:19:01] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[24/Sep/2019 23:19:01] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[24/Sep/2019 23:19:01] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+Not Found: /favicon.ico
+[24/Sep/2019 23:19:01] "GET /favicon.ico HTTP/1.1" 404 1976
+[24/Sep/2019 23:19:19] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 23:23:11] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 23:23:11] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[24/Sep/2019 23:23:11] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[24/Sep/2019 23:23:11] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[24/Sep/2019 23:23:11] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[24/Sep/2019 23:23:11] "GET /favicon.ico HTTP/1.1" 404 1981
+----------------------------------------
+Exception happened during processing of request from ('10.246.60.178', 48790)
+----------------------------------------
+Exception happened during processing of request from ('10.246.60.178', 48792)
+----------------------------------------
+Exception happened during processing of request from ('10.246.60.178', 48796)
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/data/data/com.termux/files/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/data/data/com.termux/files/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/data/data/com.termux/files/home/django_test/env/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/data/data/com.termux/files/home/django_test/env/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/data/data/com.termux/files/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/data/data/com.termux/files/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/data/data/com.termux/files/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/data/data/com.termux/files/home/django_test/env/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/data/data/com.termux/files/home/django_test/env/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/data/data/com.termux/files/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/data/data/com.termux/files/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/data/data/com.termux/files/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/data/data/com.termux/files/home/django_test/env/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/data/data/com.termux/files/home/django_test/env/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/data/data/com.termux/files/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[24/Sep/2019 23:23:23] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 23:23:32] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 23:23:35] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 23:23:35] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[24/Sep/2019 23:23:35] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+Not Found: /favicon.ico
+[24/Sep/2019 23:23:35] "GET /favicon.ico HTTP/1.1" 404 1976
+[24/Sep/2019 23:23:36] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 23:23:36] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[24/Sep/2019 23:23:36] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+Not Found: /favicon.ico
+[24/Sep/2019 23:23:36] "GET /favicon.ico HTTP/1.1" 404 1976
+[24/Sep/2019 23:23:36] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 23:23:36] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[24/Sep/2019 23:23:36] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+Not Found: /favicon.ico
+[24/Sep/2019 23:23:36] "GET /favicon.ico HTTP/1.1" 404 1976
+[24/Sep/2019 23:23:36] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 23:23:36] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[24/Sep/2019 23:23:36] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+Not Found: /favicon.ico
+[24/Sep/2019 23:23:36] "GET /favicon.ico HTTP/1.1" 404 1976
+[24/Sep/2019 23:23:36] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 23:23:36] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[24/Sep/2019 23:23:37] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[24/Sep/2019 23:23:37] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 23:23:37] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[24/Sep/2019 23:23:37] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+Not Found: /favicon.ico
+[24/Sep/2019 23:23:37] "GET /favicon.ico HTTP/1.1" 404 1976
+[24/Sep/2019 23:23:37] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 23:23:37] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[24/Sep/2019 23:23:37] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+Not Found: /favicon.ico
+[24/Sep/2019 23:23:37] "GET /favicon.ico HTTP/1.1" 404 1976
+[24/Sep/2019 23:23:37] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 23:23:37] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[24/Sep/2019 23:23:37] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+Not Found: /favicon.ico
+[24/Sep/2019 23:23:38] "GET /favicon.ico HTTP/1.1" 404 1976
+[24/Sep/2019 23:23:38] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 23:23:38] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[24/Sep/2019 23:23:38] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+Not Found: /favicon.ico
+[24/Sep/2019 23:23:38] "GET /favicon.ico HTTP/1.1" 404 1976
+[24/Sep/2019 23:23:38] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 23:23:38] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[24/Sep/2019 23:23:38] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+Not Found: /favicon.ico
+[24/Sep/2019 23:23:38] "GET /favicon.ico HTTP/1.1" 404 1976
+[24/Sep/2019 23:23:38] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 23:23:38] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[24/Sep/2019 23:23:38] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+Not Found: /favicon.ico
+[24/Sep/2019 23:23:38] "GET /favicon.ico HTTP/1.1" 404 1976
+[24/Sep/2019 23:24:10] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 23:24:10] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[24/Sep/2019 23:25:19] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 23:25:19] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[24/Sep/2019 23:25:19] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[24/Sep/2019 23:25:19] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[24/Sep/2019 23:25:19] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+Not Found: /favicon.ico
+[24/Sep/2019 23:25:19] "GET /favicon.ico HTTP/1.1" 404 1981
+[24/Sep/2019 23:25:19] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 23:25:19] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[24/Sep/2019 23:25:19] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[24/Sep/2019 23:25:19] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[24/Sep/2019 23:25:19] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+Not Found: /favicon.ico
+[24/Sep/2019 23:25:19] "GET /favicon.ico HTTP/1.1" 404 1981
+[24/Sep/2019 23:25:20] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 23:25:20] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[24/Sep/2019 23:25:20] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[24/Sep/2019 23:25:20] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[24/Sep/2019 23:25:20] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[24/Sep/2019 23:25:20] "GET / HTTP/1.1" 200 16348
+Not Found: /favicon.ico
+[24/Sep/2019 23:25:20] "GET /favicon.ico HTTP/1.1" 404 1981
+[24/Sep/2019 23:25:20] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[24/Sep/2019 23:25:20] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[24/Sep/2019 23:25:20] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[24/Sep/2019 23:25:20] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+Not Found: /favicon.ico
+[24/Sep/2019 23:25:20] "GET /favicon.ico HTTP/1.1" 404 1981
+[24/Sep/2019 23:25:23] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 23:25:24] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[24/Sep/2019 23:25:24] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+Not Found: /favicon.ico
+[24/Sep/2019 23:25:24] "GET /favicon.ico HTTP/1.1" 404 1976
+[24/Sep/2019 23:25:24] "GET / HTTP/1.1" 200 16348
+Not Found: /js/oid_str.js
+[24/Sep/2019 23:25:46] "GET /js/oid_str.js HTTP/1.1" 404 1982
+Not Found: /js/jquery-1.8.3.min.js
+[24/Sep/2019 23:25:47] "GET /js/jquery-1.8.3.min.js HTTP/1.1" 404 2009
+Not Found: /js/jquery-1.8.3.min.js
+[24/Sep/2019 23:25:47] "GET /js/jquery-1.8.3.min.js HTTP/1.1" 404 2009
+Not Found: /css/jquery.tpInput.css
+[24/Sep/2019 23:25:47] "GET /css/jquery.tpInput.css HTTP/1.1" 404 2009
+----------------------------------------
+Exception happened during processing of request from ('10.246.60.178', 50425)
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/data/data/com.termux/files/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/data/data/com.termux/files/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/data/data/com.termux/files/home/django_test/env/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/data/data/com.termux/files/home/django_test/env/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/data/data/com.termux/files/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /img/imgMobile/welcome-down.png
+[24/Sep/2019 23:25:47] "GET /img/imgMobile/welcome-down.png HTTP/1.1" 404 2033
+Not Found: /css/jquery.tpInput.css
+[24/Sep/2019 23:25:48] "GET /css/jquery.tpInput.css HTTP/1.1" 404 2009
+Not Found: /js/lib.js
+Not Found: /locale/language.js
+Not Found: /js/locale.js
+[24/Sep/2019 23:25:48] "GET /locale/language.js HTTP/1.1" 404 1997
+[24/Sep/2019 23:25:48] "GET /js/lib.js HTTP/1.1" 404 1970
+[24/Sep/2019 23:25:48] "GET /js/locale.js HTTP/1.1" 404 1979
+Not Found: /locale/language.js
+[24/Sep/2019 23:25:48] "GET /locale/language.js HTTP/1.1" 404 1997
+Not Found: /js/locale.js
+[24/Sep/2019 23:25:48] "GET /js/locale.js HTTP/1.1" 404 1979
+Not Found: /css/login.css
+[24/Sep/2019 23:25:48] "GET /css/login.css HTTP/1.1" 404 1982
+Not Found: /css/jquery.tpInput.css
+Not Found: /js/oid_str.js
+[24/Sep/2019 23:25:49] "GET /js/oid_str.js HTTP/1.1" 404 1982
+Not Found: /js/jquery-1.8.3.min.js
+[24/Sep/2019 23:25:49] "GET /css/jquery.tpInput.css HTTP/1.1" 404 2009
+Not Found: /js/lib.js
+[24/Sep/2019 23:25:49] "GET /js/lib.js HTTP/1.1" 404 1970
+[24/Sep/2019 23:25:49] "GET /js/jquery-1.8.3.min.js HTTP/1.1" 404 2009
+Not Found: /css/login.css
+[24/Sep/2019 23:25:51] "GET /css/login.css HTTP/1.1" 404 1982
+Not Found: /img/loading.gif
+[24/Sep/2019 23:25:51] "GET /img/loading.gif HTTP/1.1" 404 1988
+Not Found: /css/jquery.tpInput.css
+[24/Sep/2019 23:25:52] "GET /css/jquery.tpInput.css HTTP/1.1" 404 2009
+Not Found: /js/jquery-1.8.3.min.js
+[24/Sep/2019 23:25:52] "GET /js/jquery-1.8.3.min.js HTTP/1.1" 404 2009
+Not Found: /css/login.css
+[24/Sep/2019 23:25:52] "GET /css/login.css HTTP/1.1" 404 1982
+Not Found: /js/lib.js
+[24/Sep/2019 23:25:52] "GET /js/lib.js HTTP/1.1" 404 1970
+Not Found: /js/oid_str.js
+[24/Sep/2019 23:25:52] "GET /js/oid_str.js HTTP/1.1" 404 1982
+Not Found: /css/login.css
+[24/Sep/2019 23:25:54] "GET /css/login.css HTTP/1.1" 404 1982
+Not Found: /css/jquery.tpInput.css
+[24/Sep/2019 23:25:54] "GET /css/jquery.tpInput.css HTTP/1.1" 404 2009
+Not Found: /js/oid_str.js
+Not Found: /js/jquery-1.8.3.min.js
+Not Found: /js/lib.js
+[24/Sep/2019 23:25:54] "GET /js/oid_str.js HTTP/1.1" 404 1982
+[24/Sep/2019 23:25:54] "GET /js/lib.js HTTP/1.1" 404 1970
+[24/Sep/2019 23:25:54] "GET /js/jquery-1.8.3.min.js HTTP/1.1" 404 2009
+Not Found: /css/login.css
+[24/Sep/2019 23:25:55] "GET /css/login.css HTTP/1.1" 404 1982
+Not Found: /img/icons.png
+[24/Sep/2019 23:25:55] "GET /img/icons.png HTTP/1.1" 404 1982
+Not Found: /cgi/getParm
+[24/Sep/2019 23:25:55] "POST /cgi/getParm HTTP/1.1" 404 1977
+[24/Sep/2019 23:25:55] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 23:25:55] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+Not Found: /favicon.ico
+[24/Sep/2019 23:25:55] "GET /favicon.ico HTTP/1.1" 404 1976
+[24/Sep/2019 23:27:07] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 23:27:07] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[24/Sep/2019 23:27:07] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+Not Found: /favicon.ico
+[24/Sep/2019 23:27:07] "GET /favicon.ico HTTP/1.1" 404 1976
+[24/Sep/2019 23:27:08] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 23:27:08] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[24/Sep/2019 23:27:08] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+Not Found: /favicon.ico
+[24/Sep/2019 23:27:08] "GET /favicon.ico HTTP/1.1" 404 1976
+[24/Sep/2019 23:27:08] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 23:27:08] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[24/Sep/2019 23:27:08] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+Not Found: /favicon.ico
+[24/Sep/2019 23:27:08] "GET /favicon.ico HTTP/1.1" 404 1976
+[24/Sep/2019 23:27:09] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 23:27:09] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[24/Sep/2019 23:27:09] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+Not Found: /favicon.ico
+[24/Sep/2019 23:27:09] "GET /favicon.ico HTTP/1.1" 404 1976
+[24/Sep/2019 23:27:10] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 23:27:10] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[24/Sep/2019 23:27:10] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+Not Found: /favicon.ico
+[24/Sep/2019 23:27:11] "GET /favicon.ico HTTP/1.1" 404 1976
+[24/Sep/2019 23:27:11] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 23:27:11] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[24/Sep/2019 23:27:11] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+Not Found: /favicon.ico
+[24/Sep/2019 23:27:11] "GET /favicon.ico HTTP/1.1" 404 1976
+[24/Sep/2019 23:27:11] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 23:27:11] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[24/Sep/2019 23:27:11] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+Not Found: /favicon.ico
+[24/Sep/2019 23:27:11] "GET /favicon.ico HTTP/1.1" 404 1976
+[24/Sep/2019 23:27:12] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 23:27:12] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[24/Sep/2019 23:27:12] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+Not Found: /favicon.ico
+[24/Sep/2019 23:27:12] "GET /favicon.ico HTTP/1.1" 404 1976
+[24/Sep/2019 23:27:12] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 23:27:12] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[24/Sep/2019 23:27:12] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+Not Found: /favicon.ico
+[24/Sep/2019 23:27:12] "GET /favicon.ico HTTP/1.1" 404 1976
+[24/Sep/2019 23:27:13] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 23:27:13] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[24/Sep/2019 23:27:13] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+Not Found: /favicon.ico
+[24/Sep/2019 23:27:13] "GET /favicon.ico HTTP/1.1" 404 1976
+[24/Sep/2019 23:27:19] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 23:27:19] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[24/Sep/2019 23:27:19] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[24/Sep/2019 23:27:19] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[24/Sep/2019 23:27:19] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+Not Found: /favicon.ico
+[24/Sep/2019 23:27:19] "GET /favicon.ico HTTP/1.1" 404 1981
+[24/Sep/2019 23:27:31] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 23:28:32] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 23:28:32] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[24/Sep/2019 23:28:32] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[24/Sep/2019 23:28:32] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[24/Sep/2019 23:28:32] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+Not Found: /favicon.ico
+[24/Sep/2019 23:28:32] "GET /favicon.ico HTTP/1.1" 404 1981
+[24/Sep/2019 23:34:07] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 23:34:11] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 23:34:47] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 23:43:28] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 23:50:56] "GET / HTTP/1.1" 200 16348
+[24/Sep/2019 23:50:56] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[24/Sep/2019 23:50:56] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[24/Sep/2019 23:50:56] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[24/Sep/2019 23:50:56] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[24/Sep/2019 23:59:06] "GET / HTTP/1.1" 200 16348
+----------------------------------------
+Exception happened during processing of request from ('10.246.60.178', 39502)
+----------------------------------------
+Exception happened during processing of request from ('10.246.60.178', 39500)
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/data/data/com.termux/files/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/data/data/com.termux/files/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/data/data/com.termux/files/home/django_test/env/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/data/data/com.termux/files/home/django_test/env/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/data/data/com.termux/files/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/data/data/com.termux/files/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/data/data/com.termux/files/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/data/data/com.termux/files/home/django_test/env/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 169, in handle
+    self.handle_one_request()
+  File "/data/data/com.termux/files/home/django_test/env/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/data/data/com.termux/files/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[25/Sep/2019 00:20:08] "GET / HTTP/1.1" 200 16348
+[25/Sep/2019 00:20:08] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[25/Sep/2019 00:20:09] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[25/Sep/2019 00:20:09] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[25/Sep/2019 00:20:09] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[25/Sep/2019 00:25:08] "GET / HTTP/1.1" 200 16348
+Watching for file changes with StatReloader
+[25/Sep/2019 01:15:47] "GET / HTTP/1.1" 200 16348
+[25/Sep/2019 01:15:47] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[25/Sep/2019 01:15:47] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[25/Sep/2019 01:15:47] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[25/Sep/2019 01:15:47] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[25/Sep/2019 01:15:47] "GET /favicon.ico HTTP/1.1" 404 1981
+[25/Sep/2019 01:16:20] "GET / HTTP/1.1" 200 16348
+[25/Sep/2019 01:16:20] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[25/Sep/2019 01:16:20] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[25/Sep/2019 01:16:20] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[25/Sep/2019 01:16:20] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[25/Sep/2019 01:16:33] "GET / HTTP/1.1" 200 16348
+Watching for file changes with StatReloader
+[25/Sep/2019 01:38:26] "GET / HTTP/1.1" 200 16348
+[25/Sep/2019 01:39:54] "GET / HTTP/1.1" 200 16348
+[25/Sep/2019 01:39:54] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[25/Sep/2019 01:39:54] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[25/Sep/2019 01:39:54] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[25/Sep/2019 01:39:54] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[25/Sep/2019 01:40:05] "GET / HTTP/1.1" 200 16348
+[25/Sep/2019 01:40:19] "GET / HTTP/1.1" 200 16348
+[25/Sep/2019 01:50:26] "GET / HTTP/1.1" 200 16348
+[25/Sep/2019 01:50:26] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[25/Sep/2019 01:50:26] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[25/Sep/2019 01:50:26] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[25/Sep/2019 01:50:26] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[25/Sep/2019 01:50:54] "GET / HTTP/1.1" 200 16348
+[25/Sep/2019 01:50:54] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[25/Sep/2019 01:50:54] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[25/Sep/2019 01:50:54] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[25/Sep/2019 01:50:54] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[25/Sep/2019 01:50:58] "GET / HTTP/1.1" 200 16348
+[25/Sep/2019 01:57:12] "GET / HTTP/1.1" 200 16348
+Not Found: /favicon.ico
+[25/Sep/2019 01:57:12] "GET /favicon.ico HTTP/1.1" 404 1981
+[25/Sep/2019 01:57:15] "GET / HTTP/1.1" 200 16348
+[25/Sep/2019 02:11:30] "GET / HTTP/1.1" 200 16348
+[25/Sep/2019 02:11:34] "GET / HTTP/1.1" 200 16348
+[25/Sep/2019 02:11:37] "GET / HTTP/1.1" 200 16348
+[25/Sep/2019 02:11:40] "GET / HTTP/1.1" 200 16348
+[25/Sep/2019 02:11:42] "GET / HTTP/1.1" 200 16348
+[25/Sep/2019 02:11:44] "GET / HTTP/1.1" 200 16348
+[25/Sep/2019 07:46:47] "GET / HTTP/1.1" 200 16348
+[25/Sep/2019 07:46:47] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[25/Sep/2019 07:46:47] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[25/Sep/2019 07:46:47] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[25/Sep/2019 07:46:47] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+Not Found: /test/
+[25/Sep/2019 16:52:30] "GET /test/ HTTP/1.1" 404 1963
+Not Found: /favicon.ico
+[25/Sep/2019 16:52:30] "GET /favicon.ico HTTP/1.1" 404 1981
+Watching for file changes with StatReloader
+[25/Sep/2019 16:52:56] "GET /test/ HTTP/1.1" 200 39
+Not Found: /favicon.ico
+[25/Sep/2019 16:52:56] "GET /favicon.ico HTTP/1.1" 404 2102
+[25/Sep/2019 16:57:15] "GET /test/ HTTP/1.1" 200 39
+[25/Sep/2019 16:57:15] "GET /test/ HTTP/1.1" 200 39
+[25/Sep/2019 17:00:28] "GET /test/ HTTP/1.1" 200 39
+[25/Sep/2019 17:00:29] "GET /test/ HTTP/1.1" 200 39
+[25/Sep/2019 17:00:54] "GET /admin HTTP/1.1" 301 0
+[25/Sep/2019 17:00:55] "GET /admin HTTP/1.1" 301 0
+[25/Sep/2019 17:00:55] "GET /admin/ HTTP/1.1" 302 0
+[25/Sep/2019 17:00:57] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1819
+[25/Sep/2019 17:00:57] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1819
+[25/Sep/2019 17:00:58] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17944
+[25/Sep/2019 17:00:58] "GET /static/admin/css/login.css HTTP/1.1" 200 1233
+[25/Sep/2019 17:00:58] "GET /static/admin/css/base.css HTTP/1.1" 200 16378
+[25/Sep/2019 17:00:59] "GET /static/admin/css/base.css HTTP/1.1" 200 16378
+[25/Sep/2019 17:00:59] "GET /static/admin/css/login.css HTTP/1.1" 200 1233
+[25/Sep/2019 17:00:59] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[25/Sep/2019 17:01:01] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[25/Sep/2019 17:01:01] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[25/Sep/2019 17:01:01] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[25/Sep/2019 17:01:01] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[25/Sep/2019 17:01:02] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[25/Sep/2019 17:01:02] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[25/Sep/2019 17:05:24] "GET /test/ HTTP/1.1" 200 39
+Not Found: /favicon.ico
+[25/Sep/2019 17:05:24] "GET /favicon.ico HTTP/1.1" 404 2102
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[25/Sep/2019 17:54:42] "GET /test/ HTTP/1.1" 200 39
+[25/Sep/2019 17:54:43] "GET /test/ HTTP/1.1" 200 39
+[25/Sep/2019 18:11:28] "GET /test/ HTTP/1.1" 200 39
+Watching for file changes with StatReloader
+[25/Sep/2019 18:13:15] "GET /test/ HTTP/1.1" 200 39
+[25/Sep/2019 18:13:17] "GET /test/ HTTP/1.1" 200 39
+[25/Sep/2019 18:13:18] "GET /test/ HTTP/1.1" 200 39
