@@ -3,7 +3,7 @@ import git
 import os
 
 
-def pull():
+def pull(req):
     g = git.cmd.Git('/data/data/com.termux/files/home/django_test/django_test')
     x = g.pull()
     return JsonResponse({'resp': str(x)})
