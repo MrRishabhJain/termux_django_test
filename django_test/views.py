@@ -8,7 +8,6 @@ def pull(req):
     return JsonResponse({'resp': str(x)})
 
 
-
 def testing(req):
     print(req)
-    return JsonResponse({'first': 'Rishabh', 'last': 'Jain', 'age': 24})
+    return JsonResponse({'first': 'Rishabh', 'last': 'Jain', 'age': 23})
