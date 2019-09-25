@@ -2,9 +2,14 @@ from django.http import JsonResponse
 import git
 import os
 
-# g = git.cmd.Git(git_dir)
-# g.pull()
+
+def pull():
+    g = git.cmd.Git('/data/data/com.termux/files/home/django_test/django_test/')
+    x = g.pull()
+    return JsonResponse({'resp': str(x)})
+
+
 
 def testing(req):
     print(req)
-    return JsonResponse({'first': 'Rishabh', 'last': 'Jain', 'age': 24, 'path': os.listdir('')})
+    return JsonResponse({'first': 'Rishabh', 'last': 'Jain', 'age': 24, 'path': str(os.listdir(''))})
