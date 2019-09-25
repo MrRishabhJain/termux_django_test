@@ -4,7 +4,7 @@ import os
 
 
 def pull():
-    g = git.cmd.Git('/data/data/com.termux/files/home/django_test/django_test/')
+    g = git.cmd.Git('/data/data/com.termux/files/home/django_test/django_test')
     x = g.pull()
     return JsonResponse({'resp': str(x)})
 
