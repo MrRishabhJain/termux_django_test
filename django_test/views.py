@@ -1,6 +1,5 @@
 from django.http import JsonResponse
 import git
-import os
 
 
 def pull(req):
@@ -12,4 +11,4 @@ def pull(req):
 
 def testing(req):
     print(req)
-    return JsonResponse({'first': 'Rishabh', 'last': 'Jain', 'age': 24, 'path': str(os.listdir(''))})
+    return JsonResponse({'first': 'Rishabh', 'last': 'Jain', 'age': 24})
